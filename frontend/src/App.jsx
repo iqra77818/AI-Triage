@@ -36,7 +36,7 @@ function App() {
       </main>
       <footer className="bg-sky-300 py-5 mt-12 text-center">
   <p className="italic text-xl sm:text-2xl max-w-xl mx-auto px-4 sm:px-0 text-slate-500">
-    Developed with 💙 by team Runtime Rebels
+    Developed with 💙 by team Iqra Khan
   </p>
 </footer>
 

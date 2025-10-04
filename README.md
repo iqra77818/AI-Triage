@@ -4,9 +4,14 @@
   <img src="frontend/public/medisyn.png" alt="Medisyn Logo" width="200" />
 </p>
 
+## AI Powered Multi-Disease Triage System
 
+# Problem Statement
+## "Overwhelmed Hospitals. Limited Resources. Critical Time Lost."
+In today’s fast-paced healthcare system, emergency rooms are overcrowded, and critically ill patients often face long wait times. Hospitals in rural or low-resource areas struggle with limited supplies, beds, and specialist access. Traditional triage methods are slow, manual, and prone to errors, especially when symptoms are unclear or overlapping. As a result, patients with serious conditions may not be prioritized quickly, and doctors are forced to make rapid decisions with limited information.
 
-
+# Solution
+## "Smarter Prioritization. Faster Response. Better Outcomes."
 Medisyn is a real-time intelligent decision-support platform that analyzes symptoms and vital signs to instantly determine medical urgency—Low, Medium, or High. It helps healthcare professionals make faster, more accurate decisions with clear recommendations, optimizes hospital resource use, and ensures patients receive timely care based on urgency, improving overall healthcare outcomes.
 
 ---
@@ -49,5 +54,8 @@ Medisyn is a real-time intelligent decision-support platform that analyzes sympt
 
 ## Data (Training/Testing)
 
-- **CSV files** – Sourced from Kaggle datasets and simulated data  
+- **CSV files** – Sourced from Kaggle datasets and simulated data 
+
+## Team - Capybara
+Team Leader - Iqra Khan (Solo Participant) 
 
