@@ -166,7 +166,7 @@ export default function Form() {
               : "bg-sky-500 hover:bg-sky-600"
           }`}
         >
-          Predict Disease
+          Predict Urgency
         </button>
       </form>
 
