@@ -1,11 +1,14 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
+import os
 import joblib
 
-# Load trained model + symptoms
-clf = joblib.load("disease_model.pkl")
-symptoms_columns = joblib.load("symptoms_columns.pkl")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))  # Gets the directory of app.py
+
+clf = joblib.load(os.path.join(BASE_DIR, "disease_model.pkl"))
+symptoms_columns = joblib.load(os.path.join(BASE_DIR, "symptoms_columns.pkl"))
+
 
 # Urgency map (reuse what you wrote in Colab)
 urgency_map = {
