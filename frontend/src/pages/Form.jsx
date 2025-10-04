@@ -12,7 +12,7 @@ export default function Form() {
   const [allSymptoms, setAllSymptoms] = useState([]);
 
   useEffect(() => {
-    fetch("http://127.0.0.1:8000/symptoms")
+    fetch("https://ai-triage.onrender.com/symptoms")
       .then((res) => res.json())
       .then((data) => setAllSymptoms(data.symptoms || []))
       .catch((err) => console.error("Failed to load symptoms:", err));
@@ -53,7 +53,7 @@ export default function Form() {
     };
 
     try {
-      const res = await fetch("http://127.0.0.1:8000/predict", {
+      const res = await fetch("https://ai-triage.onrender.com/predict", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data),

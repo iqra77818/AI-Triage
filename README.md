@@ -6,7 +6,7 @@
 
 ## AI Powered Multi-Disease Triage System
 
-## 🎞️ Presentation
+## ▶️ Presentation
 [View Presentation](https://www.canva.com/design/DAG0197RZSQ/2IIWt_dbgO0tL2dqVg7F8w/view?utm_content=DAG0197RZSQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h45d2caa289) 
 
 
