@@ -58,7 +58,29 @@ Medisyn is a real-time intelligent decision-support platform that analyzes sympt
 
 ## Data (Training/Testing)
 
-- **CSV files** – Sourced from Kaggle datasets and simulated data 
+- **CSV files** – Sourced from Kaggle datasets and simulated data
+## 📈 Scalability
+
+- Scalable deployment across hospitals, rural clinics, mobile vans, and emergency tents worldwide.
+- Easily expandable to more diseases as additional data is collected.
+- Adaptable UI supports doctors (desktop/tablet), and telehealth agents (web dashboard). 
+
+## 📊 Feasibility
+
+
+- FastAPI + Scikit-learn enables real-time triage with low compute use.
+- React UI integrates smoothly with hospital and telehealth systems.
+- Rule-based explainable AI builds trust for clinical adoption.
+
+## 💎 Unique Selling Proposition
+
+Real-time, AI-powered triage that instantly analyzes multiple symptoms and vitals — with built-in BMI analysis — to instantly assess urgency (🟢 Low | 🟡 Medium | 🔴 High), predict diseases in real time, and provide clear, actionable health guidance.
+
+## 💰 Business Model
+
+- Monthly or annual B2B SaaS subscription for clinics, hospitals, and telehealth platforms
+- Per-request API pricing for developers integrating triage into their own applications
+- Sell to governments for rural healthcare, pandemic, or disaster response deployments
 
 ## 🧠 Team - Capybara
 Team Leader - Iqra Khan (Solo Participant) 
